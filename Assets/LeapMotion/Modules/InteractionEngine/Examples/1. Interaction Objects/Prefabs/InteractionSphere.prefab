@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4793599416388502}
   - component: {fileID: 33289561478728666}
   - component: {fileID: 23141912419448808}
-  - component: {fileID: 135998280099304426}
   - component: {fileID: 54494498398590960}
   - component: {fileID: 114805490048860276}
+  - component: {fileID: 4863442367960335013}
   m_Layer: 0
   m_Name: InteractionSphere
   m_TagString: Untagged
@@ -80,19 +80,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &135998280099304426
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1876345102506344}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &54494498398590960
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -139,3 +126,16 @@ MonoBehaviour:
     layerIndex: 0
   _eventTable:
     _entries: []
+--- !u!65 &4863442367960335013
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876345102506344}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9999999, y: 1, z: 1}
+  m_Center: {x: 0, y: -0.000000059604645, z: 0}
